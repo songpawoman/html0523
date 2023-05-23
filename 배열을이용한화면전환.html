@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            width:600px;
+            height: 400px;
+            background: skyblue;
+            margin: auto;
+        }
+        ul{
+            width:600px;
+            height:50px;
+            background: black;
+            padding: 0px;
+        }
+        ul li{
+            width:33%;
+            border: 1px solid red;
+            background-color: yellow;
+            box-sizing: border-box;
+            padding:15px;
+            float: left;
+            list-style: none; /*목록의 도트가 사라짐*/
+        }
+        #content{
+            width:100%;
+            height:350px;
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <ul> 
+            <li style="background: yellow;">메뉴1</li>                       
+            <li style="background: red;">메뉴2</li>                       
+            <li style="background: blue;">메뉴3</li>                       
+        </ul>            
+        <div id="content"></div>
+    </div>
+
+</body>
+</html>
